@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "e46f7fb5-ec5d-45ea-9fe2-06595c4cd0e9",
-		"name": "test",
+		"_postman_id": "78253b45-5ab2-456b-82b4-90b3240a12c7",
+		"name": "3t34t",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "948888-e46f7fb5-ec5d-45ea-9fe2-06595c4cd0e9"
+		"_uid": "948888-78253b45-5ab2-456b-82b4-90b3240a12c7"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "495f038a-a0dd-4b46-858a-02105f98d756",
+			"id": "5c59fdde-e8b5-45cd-8db5-3cbbb6281b5a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "e4d8c23e-0f8b-4f74-b248-29d5715feec0",
+					"id": "a86e99eb-8d94-4d8f-9f04-fc8fe676d768",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -72,7 +72,6 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -83,7 +82,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"irure magna pariatur velit\",\n  \"type\": \"capsule\",\n  \"description\": \"in eu\"\n}"
 				},
 				{
-					"id": "20220073-0524-47fe-a02b-815b1d137b07",
+					"id": "86dd62cb-22a0-419e-8a20-4feff1a4b42b",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -114,7 +113,6 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -125,7 +123,7 @@
 					"body": "{\n  \"message\": \"dolor\"\n}"
 				},
 				{
-					"id": "0f228d18-f154-4701-a4b8-a3df99ae69bc",
+					"id": "641b551d-f43a-4842-921a-0ef20ff64131",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -156,7 +154,6 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -191,7 +188,7 @@
 	},
 	"variable": [
 		{
-			"id": "b6651686-e371-43a6-ba02-0bfc867242c0",
+			"id": "2e533b8d-31ba-4d26-9a51-e3299332ec97",
 			"key": "baseUrl",
 			"value": "/",
 			"type": "string"
